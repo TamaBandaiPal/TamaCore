@@ -7,7 +7,7 @@ const PORT = 80;
 const fs = require("fs");
 const express = require("express")
 const app = express();
-const secret = "TAMA{salvation}"; 
+const secret = "<REDACTED>"; 
 
 app.use("/img/", express.static('./img'))
 
